@@ -7,7 +7,7 @@
   <link href="/Public/css/font.css" rel="stylesheet">
   <link href="/Public/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="/Public/css/custom/index/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="/Public/css/bootstrap.icon-large.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   
   
 </head>
@@ -22,7 +22,7 @@
       <ul id="nav-mobile" class="side-nav">
         <li><a class="waves-effect" href="#">Get Started</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-navicon"></i><!-- <i class="material-icons">menu</i> --></a>
 
     </div>
   </nav>
@@ -50,22 +50,21 @@
       <div class="row">
         <div class="col s12 m6 l3">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h2 class="center brown-text"><i class="fa fa-rocket"></i></h2>
             <h5 class="center">Speeds up your revision</h5>
             <p class="light">All the papers were well sorted and tagged by USERS and AI. Everyone's little <strong>contributions</strong> may result in huge difference. Advanced <strong>machine learning algorithms</strong> enables computers to learn from your efforts and download or analize the unsorted papers by themselves.</p>
           </div>
         </div>
         <div class="col s12 m6 l3">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h2 class="center brown-text"><i class="fa fa-users"></i></h2>
             <h5 class="center">User's Power</h5>
-
             <p class="light">Our cloud sorting system encourages users to help tag the papers they viewed. The more contributions, the better the papers are tagged, and ,of course, the more convinient it will be. Your tiny contribution may result in a big difference!</p>
           </div>
         </div>
         <div class="col s12 m6 l3">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">swap_vert</i></h2>
+            <h2 class="center brown-text"><i class="fa fa-connectdevelop"></i></h2>
             <h5 class="center">Always up to date</h5>
 
             <p class="light">Our webspiders will check for newly issued papers <strong>tirelessly</strong>. And if you are kind enough to help, please don't hesitate to <strong>share</strong> your latest papers with all the users who have sorted papers for you. <a href="#">click here to upload</a></p>
@@ -73,7 +72,7 @@
         </div>
         <div class="col s12 m6 l3">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">my_location</i></h2>
+            <h2 class="center brown-text"><i class="fa fa-lightbulb-o"></i></h2>
             <h5 class="center">Intelligent searching/viewing</h5>
 
             <p class="light">Our data mining algorithm and cloud sorting system can provide you with ulitmate convinience in finding what you want. Only one click is needed to search for labeled key-points through hundreds of papers or to look through the most delicate collection of questions in specific chapter!</p>
@@ -97,7 +96,7 @@
     <div class="section">
       <div class="row">
         <div class="col s12 center">
-          <h3> <i class="large material-icons">redeem</i></h3>
+          <h3> <i class="fa fa-gift fa-3x"></i></h3>
           <h4>It is also <strong>your</strong> website!</h4>
           <p class="left-align light">Everything on this website can be <strong>downloaded in batches(compressed ZIP)</strong>. We will make no effort to reserve our resources and try try to provide the best download service. We also ask for your contributions to the <strong>sorting of the papers and the key points</strong>.</p>
         </div>
@@ -154,6 +153,11 @@
 <script src="/Public/js/custom/index/init.js"></script>
 
 
+<script>
+  $(document).ready(function(){
+    $("#preloader").remove();
+  });
+</script>
 </body>
 </html>
 </block>

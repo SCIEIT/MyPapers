@@ -7,7 +7,7 @@
   <link href="__PUBLIC__/css/font.css" rel="stylesheet">
   <link href="__PUBLIC__/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="__PUBLIC__/css/custom/index/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="__PUBLIC__/css/bootstrap.icon-large.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   <block name="customCSS">
   </block>
 </head>
@@ -22,7 +22,7 @@
       <ul id="nav-mobile" class="side-nav">
         <li><a class="waves-effect" href="#">Get Started</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-navicon"></i><!-- <i class="material-icons">menu</i> --></a>
 
     </div>
   </nav>
@@ -44,6 +44,11 @@
 <script src="__PUBLIC__/js/custom/index/init.js"></script>
 <block name="customJS">
 </block>
+<script>
+  $(document).ready(function(){
+    $("#preloader").remove();
+  });
+</script>
 </body>
 </html>
 </block>

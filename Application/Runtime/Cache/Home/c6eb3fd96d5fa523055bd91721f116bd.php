@@ -7,6 +7,7 @@
   <link href="/Public/css/font.css" rel="stylesheet">
   <link href="/Public/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="/Public/css/custom/index/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   
   
 </head>
@@ -21,12 +22,14 @@
       <ul id="nav-mobile" class="side-nav">
         <li><a class="waves-effect" href="#">Get Started</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-navicon"></i><!-- <i class="material-icons">menu</i> --></a>
+
     </div>
   </nav>
 
 
-	
+	<?php foreach($subjects as $subject){?>
+	<?php } ?>
 
 <footer class="page-footer teal">
   
@@ -43,6 +46,11 @@
 <script src="/Public/js/custom/index/init.js"></script>
 
 
+<script>
+  $(document).ready(function(){
+    $("#preloader").remove();
+  });
+</script>
 </body>
 </html>
 </block>
