@@ -7,6 +7,7 @@
   <link href="/Public/css/font.css" rel="stylesheet">
   <link href="/Public/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="/Public/css/custom/index/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/Public/css/bootstrap.icon-large.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   
   
 </head>
@@ -22,6 +23,7 @@
         <li><a class="waves-effect" href="#">Get Started</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
     </div>
   </nav>
 
