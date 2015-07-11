@@ -4,8 +4,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <title>MyPapers</title>
-  <link href="Public/css/font.css" rel="stylesheet">
-  <link href="Public/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/Public/css/font.css" rel="stylesheet">
+  <link href="/Public/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   
   <link href="Public/css/custom/index/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
@@ -145,10 +145,10 @@
     By <a class="brown-text text-lighten-3" href="http://www.scieit.tk">IT Club</a>
     </div>
   </div>
-
+</footer>
   <!--  Scripts-->
-<script src="Public/js/jquery-2.1.1.min.js"></script>
-<script src="Public/js/materialize.min.js"></script>
+<script src="/Public/js/jquery-2.1.1.min.js"></script>
+<script src="/Public/js/materialize.min.js"></script>
 
 <script src="Public/js/custom/index/init.js"></script>
 
