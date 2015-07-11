@@ -6,9 +6,12 @@
   <title>MyPapers</title>
   <link href="Public/css/font.css" rel="stylesheet">
   <link href="Public/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="Public/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <link href="Public/css/custom/index/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
 </head>
 <body>
+
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">MyPapers</a>
@@ -21,6 +24,7 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -37,7 +41,7 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="Public/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="Public/res/index/background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
   <div class="container">
     <div class="section">
@@ -84,7 +88,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="Public/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="Public/res/index/background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -110,42 +114,44 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="Public/background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="Public/res/index/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">SCIE IT Club</h5>
-          <p class="grey-text text-lighten-4">We are a team of highschool students working to improve the life of our classmates and to benefit the school.</p>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">What is text mining?</h5>
-          <p class="white-text">Text mining, also referred to as text data mining, roughly equivalent to text analytics, refers to the process of deriving high-quality information from text.</p>
-          <p class="white-text">We are using this thechnology to analze the papers in order to catagorize them.</p>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="http://www.scieit.tk">Homepage</a></li>
-            <li><a class="white-text" href="http://cms.scie.cf">MyCMS</a></li>
-          </ul>
-        </div>
+<footer class="page-footer teal">
+  
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">SCIE IT Club</h5>
+        <p class="grey-text text-lighten-4">We are a team of highschool students working to improve the life of our classmates and to benefit the school.</p>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">What is text mining?</h5>
+        <p class="white-text">Text mining, also referred to as text data mining, roughly equivalent to text analytics, refers to the process of deriving high-quality information from text.</p>
+        <p class="white-text">We are using this thechnology to analze the papers in order to catagorize them.</p>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Connect</h5>
+        <ul>
+          <li><a class="white-text" href="http://www.scieit.tk">Homepage</a></li>
+          <li><a class="white-text" href="http://cms.scie.cf">MyCMS</a></li>
+        </ul>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-      By <a class="brown-text text-lighten-3" href="http://www.scieit.tk">IT Club</a>
-      </div>
-    </div>
-  </footer>
+  </div>
 
+  <div class="footer-copyright">
+    <div class="container">
+    By <a class="brown-text text-lighten-3" href="http://www.scieit.tk">IT Club</a>
+    </div>
+  </div>
 
   <!--  Scripts-->
-  <script src="Public/js/jquery-2.1.1.min.js"></script>
-  <script src="Public/js/materialize.min.js"></script>
-  <script src="Public/js/init.js"></script>
+<script src="Public/js/jquery-2.1.1.min.js"></script>
+<script src="Public/js/materialize.min.js"></script>
 
-  </body>
+<script src="Public/js/custom/index/init.js"></script>
+
+</body>
 </html>
+</block>
