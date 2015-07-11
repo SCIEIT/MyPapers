@@ -6,9 +6,9 @@
   <title>MyPapers</title>
   <link href="/Public/css/font.css" rel="stylesheet">
   <link href="/Public/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/Public/css/custom/index/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   
-  <link href="Public/css/custom/index/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
+  
 </head>
 <body>
 
@@ -149,8 +149,8 @@
   <!--  Scripts-->
 <script src="/Public/js/jquery-2.1.1.min.js"></script>
 <script src="/Public/js/materialize.min.js"></script>
+<script src="/Public/js/custom/index/init.js"></script>
 
-<script src="Public/js/custom/index/init.js"></script>
 
 </body>
 </html>
