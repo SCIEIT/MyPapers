@@ -1,21 +1,10 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>MyPapers</title>
-  <link href="/Public/css/font.css" rel="stylesheet">
-  <link href="/Public/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="/Public/css/custom/index/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-  
-  
-</head>
+<?php if (!defined('THINK_PATH')) exit();?>
+
 <body>
 
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">MyPapers</a>
+      <a id="logo-container" href="<?=U('index/index')?>" class="brand-logo">MyPapers</a>
       <ul id="nav-mobile" class="side-nav">
         <li><a class="waves-effect" href="#">Get Started</a></li>
       </ul>
@@ -42,7 +31,7 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="Public/res/index/background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="/Public/res/index/background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
   <div class="container">
     <div class="section">
@@ -88,7 +77,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="Public/res/index/background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="/Public/res/index/background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -114,7 +103,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="Public/res/index/background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="/Public/res/index/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
 <footer class="page-footer teal">
