@@ -7,6 +7,8 @@ class ListController extends BaseController {
     }
     public function catebase(){
     	$Data=M('subjects');
+    	$subjects=D('subjects');
+    	$this->assign('subjects',$subjects->select());
     	$this->display('catebase');
     }
 }

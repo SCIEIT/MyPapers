@@ -3119,3 +3119,1918 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002282s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002701s ]
 
+[ 2015-07-12T06:37:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.304385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.304510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.046805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.046933s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2015-07-12T06:46:30+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000484s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001425s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015384s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003237s ]
+
+[ 2015-07-12T06:46:37+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Undefined variable: subjects E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002241s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002191s ]
+
+[ 2015-07-12T06:47:42+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0109s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Undefined variable: subjects E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001360s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001956s ]
+
+[ 2015-07-12T06:49:13+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002647s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001013s ]
+NOTIC: [8] Undefined variable: subjects E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003879s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003449s ]
+
+[ 2015-07-12T06:49:17+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000779s ]
+NOTIC: [8] Undefined variable: subjects E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001384s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002398s ]
+
+[ 2015-07-12T06:49:30+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002462s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0105s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000378s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001067s ]
+NOTIC: [8] Undefined variable: subjects E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001822s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002925s ]
+
+[ 2015-07-12T06:49:53+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004268s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0113s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000755s ]
+NOTIC: [8] Undefined variable: subjects E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002455s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002103s ]
+
+[ 2015-07-12T06:50:15+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000248s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003238s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000460s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001192s ]
+NOTIC: [8] Undefined variable: subjects E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002311s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0010s ]
+ERR: 模板不存在:./Application/Home/View/List/index.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2015-07-12T06:50:40+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: subjects E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 模板不存在:./Application/Home/View/List/index.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2015-07-12T06:50:56+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000250s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0009s ]
+ERR: 模板不存在:./Application/Home/View/List/index.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2015-07-12T06:50:59+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002578s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0008s ]
+ERR: 模板不存在:./Application/Home/View/List/index.html
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2015-07-12T06:51:06+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002606s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000717s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001667s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002600s ]
+
+[ 2015-07-12T06:52:20+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002643s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001003s ]
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 34 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001871s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002611s ]
+
+[ 2015-07-12T06:53:03+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002417s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000657s ]
+NOTIC: [8] Use of undefined constant subjects - assumed 'subjects' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 33 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001834s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002290s ]
+
+[ 2015-07-12T06:53:11+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002409s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000389s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001108s ]
+NOTIC: [8] Use of undefined constant subjects - assumed 'subjects' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 33 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001638s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002248s ]
+
+[ 2015-07-12T06:53:21+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003190s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001099s ]
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002648s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003814s ]
+
+[ 2015-07-12T06:54:29+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2015-07-12T06:56:33+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002462s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000659s ]
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001659s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002631s ]
+
+[ 2015-07-12T06:56:37+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001076s ]
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2015-07-12T06:56:40+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003367s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `subjects` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [2] Illegal string offset 'subject_name' E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+NOTIC: [8] Uninitialized string offset: 0 E:\Programing\MyPapers\Application\Runtime\Cache\Home\c6eb3fd96d5fa523055bd91721f116bd.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001286s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002079s ]
+
+[ 2015-07-12T06:56:52+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003458s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0105s ]
+ERR: Think\Model:findAll方法不存在！
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\Think.class.php 第 230 行.
+
+[ 2015-07-12T06:57:24+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2015-07-12T06:57:40+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004522s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000328s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000937s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003521s ]
+
+[ 2015-07-12T06:58:43+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003874s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000414s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000909s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001709s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002638s ]
+
+[ 2015-07-12T07:00:25+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2015-07-12T07:01:12+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000730s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001402s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002629s ]
+
+[ 2015-07-12T07:01:55+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003455s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000709s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002395s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002113s ]
+
+[ 2015-07-12T07:02:23+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002388s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000737s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001156s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001784s ]
+
+[ 2015-07-12T07:06:19+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000785s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001685s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002300s ]
+
+[ 2015-07-12T07:06:23+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001774s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002430s ]
+
+[ 2015-07-12T07:07:28+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002673s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000725s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001882s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002536s ]
+
+[ 2015-07-12T07:07:29+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003500s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000729s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001589s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002430s ]
+
+[ 2015-07-12T07:07:30+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002387s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000656s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001884s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002316s ]
+
+[ 2015-07-12T07:07:50+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000127s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001977s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003826s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000741s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001606s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002604s ]
+
+[ 2015-07-12T07:08:43+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2015-07-12T07:08:55+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000408s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002193s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002829s ]
+
+[ 2015-07-12T07:09:22+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003508s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000770s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001476s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002333s ]
+
+[ 2015-07-12T07:10:04+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000750s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001636s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002452s ]
+
+[ 2015-07-12T07:13:28+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000745s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001650s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002283s ]
+
+[ 2015-07-12T07:14:26+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003870s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002042s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002803s ]
+
+[ 2015-07-12T07:14:35+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0093s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001470s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2015-07-12T07:14:44+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002508s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000733s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001927s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002766s ]
+
+[ 2015-07-12T07:15:33+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2015-07-12T07:15:47+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0102s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000987s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002505s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003648s ]
+
+[ 2015-07-12T07:21:05+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002865s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001955s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002925s ]
+
+[ 2015-07-12T07:21:16+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002909s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000350s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000986s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001403s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001816s ]
+
+[ 2015-07-12T07:21:58+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2015-07-12T07:22:15+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000801s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002190s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003095s ]
+
+[ 2015-07-12T07:22:41+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002623s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000412s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002951s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003886s ]
+
+[ 2015-07-12T07:23:01+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003323s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0122s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001547s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002118s ]
+
+[ 2015-07-12T07:23:11+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000717s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001601s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002310s ]
+
+[ 2015-07-12T07:23:35+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000156s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003532s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000859s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002088s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003157s ]
+
+[ 2015-07-12T07:23:50+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003577s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000670s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001732s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003253s ]
+
+[ 2015-07-12T07:24:17+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000804s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001939s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003203s ]
+
+[ 2015-07-12T07:25:05+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000144s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004225s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000674s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002193s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003099s ]
+
+[ 2015-07-12T07:25:25+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2015-07-12T07:40:11+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005750s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000637s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002296s ]
+
+[ 2015-07-12T07:40:12+08:00 ] 127.0.0.1 /home/papers.local.com/Papers_DIR/packed/0470.zip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004268s ]
+ERR: 无法加载控制器:Papers.local.com
+
+[ 2015-07-12T07:40:24+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004540s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003372s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004801s ]
+
+[ 2015-07-12T07:40:42+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000732s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002828s ]
+
+[ 2015-07-12T07:41:02+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003245s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002054s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014655s ]
+
+[ 2015-07-12T07:41:05+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000162s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001777s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0097s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000873s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001407s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001993s ]
+
+[ 2015-07-12T07:42:11+08:00 ] 127.0.0.1 /home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002737s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003625s ]
+
+[ 2015-07-12T07:46:30+08:00 ] 127.0.0.1 /home/list/catebase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000146s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002556s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000513s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001728s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001954s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002456s ]
+
+[ 2015-07-12T08:09:01+08:00 ] 127.0.0.1 /home/list/catebase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2015-07-12T08:09:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002515s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003852s ]
+
+[ 2015-07-12T08:09:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002419s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000505s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002983s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003966s ]
+
+[ 2015-07-12T08:09:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002629s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000510s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002888s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003815s ]
+
+[ 2015-07-12T08:11:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2015-07-12T08:12:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2015-07-12T08:12:01+08:00 ] 127.0.0.1 /index.php/home/list/catebase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-07-12T08:31:44+08:00 ] 127.0.0.1 /index.php/home/list/catebase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003503s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000716s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001893s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003207s ]
+
+[ 2015-07-12T08:33:05+08:00 ] 127.0.0.1 /index.php/home/list/catebase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002586s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000498s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001314s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002896s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003932s ]
+
+[ 2015-07-12T08:35:38+08:00 ] 127.0.0.1 /index.php/home/list/catebase.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `subjects` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `subjects`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000422s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003023s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\Programing\MyPapers\Application\Home\Controller\BaseController.class.php:49) E:\Programing\MyPapers\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003423s ]
+
