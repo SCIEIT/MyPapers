@@ -1,6 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit();?>
 
-<body>
+<body style="display:none">
 
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
@@ -144,6 +144,7 @@
 <script>
   $(document).ready(function(){
     $("#preloader").remove();
+    $("body").show();
   });
 </script>
 </body>
