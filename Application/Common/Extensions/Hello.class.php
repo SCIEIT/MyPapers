@@ -2,6 +2,6 @@
 namespace Common\Extensions;
 class Hello{
 	public function sayHello(){
-		var_dump("hellp");
+		var_dump("hello");
 	}
 }

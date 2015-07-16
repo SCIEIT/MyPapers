@@ -40,7 +40,7 @@
           <div class="icon-block">
             <h2 class="center brown-text"><i class="fa fa-rocket"></i></h2>
             <h5 class="center">Speeds up your revision</h5>
-            <p class="light">All the papers were well sorted and tagged by USERS and AI. Everyone's little <strong>contributions</strong> may result in huge difference. Advanced <strong>machine learning algorithms</strong> enables computers to learn from your efforts and download or analize the unsorted papers by themselves.</p>
+            <p class="light">All the papers were well sorted and tagged by USERS and AI. Everyone's little <strong>contributions</strong> may result in huge difference. Advanced <strong>machine learning algorithms</strong> enables computers to download or analize the unsorted papers by themselves.</p>
           </div>
         </div>
         <div class="col s12 m6 l3">
@@ -63,7 +63,7 @@
             <h2 class="center brown-text"><i class="fa fa-lightbulb-o"></i></h2>
             <h5 class="center">Intelligent searching/viewing</h5>
 
-            <p class="light">Our data mining algorithm and cloud sorting system can provide you with ulitmate convinience in finding what you want. Only one click is needed to search for labeled key-points through hundreds of papers or to look through the most delicate collection of questions in specific chapter!</p>
+            <p class="light">Our data mining algorithm and cloud sorting system can bring you ulitmate convinience in finding what you want. Only one click is needed to search for labeled key-points through hundreds of papers or to look through the most delicate collection of questions in specific chapter!</p>
           </div>
         </div>
       </div>

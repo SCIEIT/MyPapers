@@ -7,9 +7,16 @@ class ListController extends BaseController {
     }
     public function catebase(){
     	$this->initialize('PapersList');
-    	$Data=M('subjects');
     	$subjects=D('subjects');
     	$this->assign('subjects',$subjects->select());
+        $this->assign('papers',$this->getCatPapers());
     	$this->display('catebase');
+    }
+    private function getCatPapers(){
+        $subjectArr=D('subjects')->getField('subject_code',true);
+        foreach ($subjectArr as $subject) {
+            $result[$subject]=D('papers')->where(['subject_code'=>$subject])->select();
+        }
+        return $result;
     }
 }
