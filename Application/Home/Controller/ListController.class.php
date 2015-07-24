@@ -5,6 +5,9 @@ class ListController extends BaseController {
     public function index(){
     	$this->catebase();
     }
+	public function search(){
+    	//根据正则表达式搜索匹配的paper.....holems你补上吧我要开始收拾行李了。。。。
+    }
     public function catebase(){
     	$this->initialize('PapersList');
     	$subjects=D('subjects');

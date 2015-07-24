@@ -16,30 +16,28 @@
   </nav>
 
 
-	<a>*只需至少选择一项信息即可开始搜索</a>
 	<div class="row">
-		
 		<div class="input-field col s2">
-          <input id="subject" type="text" class="validate">
-          <label for="subject">Subject Code</label>
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Subject Code</label>
         </div>
         <div class="input-field col s2">
-    		<select class="browser-default" id="year">
+    		<select class="browser-default">
       			<option value="" disabled selected>YEAR</option>
-      			<option value="13">2013</option>
-      			<option value="14">2014</option>
-      			<option value="15">2015</option>
+      			<option value="2013">2013</option>
+      			<option value="2014">2014</option>
+      			<option value="2015">2015</option>
     		</select>
     	 </div>
     	 <div class="input-field col s2">
-    		<select class="browser-default" id="paper">
+    		<select class="browser-default">
       			<option value="" disabled selected>PAPER</option>
-      			<option value="1">01</option>
-      			<option value="2">02</option>
-      			<option value="3">03</option>
-      			<option value="4">04</option>
-      			<option value="5">05</option>
-      			<option value="6">06</option>
+      			<option value="">01</option>
+      			<option value="2014">02</option>
+      			<option value="2015">03</option>
+      			<option value="2013">04</option>
+      			<option value="2014">05</option>
+      			<option value="2015">06</option>
     		</select>
     		 
     	 </div>
@@ -64,7 +62,7 @@
     		</p>
     	 </div>
     	 <div class="input-field col s2">
-           <a  class="waves-effect waves-light btn" onclick="Search()">Search</a>
+           <a href="<?=U('home/list/search');?>" class="waves-effect waves-light btn" onclick="Search()">Search</a>
     	</div>
     </div>
 	<ul class="collapsible popout" data-collapsible="accordion">
@@ -119,7 +117,6 @@
 <script src="/Public/js/jquery-2.1.1.min.js"></script>
 <script src="/Public/js/materialize.min.js"></script>
 <script src="/Public/js/custom/index/init.js"></script>
-<script src="/Public/js/custom/catebase/search.js"></script>
 
 
 <script>
