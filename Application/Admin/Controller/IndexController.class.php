@@ -29,23 +29,27 @@ class IndexController extends BaseController {
     	foreach($PapersArr as $name=>$value){
     		if(D('papers')->where(["paper_name"=>$name])->count()==0){
     			$paper['paper_name']=$name;
-	    		preg_match("/^\d{4}/", $name ,$code);
+	    		preg_match("/\d{4}/", $name ,$code);
+                $paper['subject_code']=$code[0];
+                $tmp=false;
 	    		foreach($subjects as $subject){
-	    			if($code[0]==$subject['subject_code']){
-	    				$paper['subject_code']=$code[0];
-	    			}else{
-	    				$paper['subject_code']=$code[0];
-	    				if(!in_array($code[0], $except)){
-	    					$except[]=$code[0];
-	    				}
-	    			}
+    				if($subject['subject_code']==$code[0]){
+    					$tmp=true;
+    				}
 	    		}
+                if(!$tmp&&!in_array($code[0], $except)){
+                    $except[]=$code[0];
+                }
 	    		preg_match("/[SsWw]\d{2}/", $name ,$date);
 	    		$paper['paper_year']=substr($date[0], 1);
 	    		$paper['paper_month']=strtolower(substr($date[0], 0,1));
-	    		preg_match("/[a-zA-Z]{2}_\d+/", $name ,$type);
-	    		$paper['paper_type']=split('_', $type[0])[0];
-	    		$paper['paper_num']=split('_', $type[0])[1];
+	    		if(preg_match("/[a-zA-Z]{2}_[\d+]+/", $name ,$type)){
+    	    		$paper['paper_type']=split('_', $type[0])[0];
+    	    		$paper['paper_num']=split('_', $type[0])[1];
+                }else{
+                    preg_match("/[a-zA-Z]{2}/", $name ,$type);
+                    $paper['paper_type']=$type[0];
+                }
 	    		D('papers')->add($paper);
 	    		echo '添加数据：'.$name.';<br/>';
 	    	}else{
