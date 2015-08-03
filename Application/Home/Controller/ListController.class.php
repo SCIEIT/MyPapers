@@ -7,16 +7,24 @@ class ListController extends BaseController {
     }
     public function catebase(){
     	$this->initialize('PapersList');
-    	$subjects=D('subjects');
-    	$this->assign('subjects',$subjects->select());
-        $this->assign('papers',$this->getCatPapers());
+        $this->getThings();
+    	//$this->assign('subjects',$this->subjects);
+        $this->assign('papers',$this->result);
     	$this->display('catebase');
     }
-    private function getCatPapers(){
-        $subjectArr=D('subjects')->getField('subject_code',true);
-        foreach ($subjectArr as $subject) {
-            $result[$subject]=D('papers')->where(['subject_code'=>$subject])->select();
+    private function getThings(){
+        $db=D('subjects');
+        $subjects=$db->select();
+        foreach ($subjects as $subject) {
+            $db=D('papers');
+            $where=array('subject_code'=>$subject['subject_code']);
+            $yearArr=D('papers')->where($where)->group('paper_year')->getField('paper_year',true);
+            $result[$subject['subject_code']]=$subject;
+            foreach ($yearArr as $year) {
+                $result[$subject['subject_code']]['years'][$year]=D('papers')->where(['subject_code'=>$subject['subject_code'],'paper_year'=>$year])->select();
+            }
         }
-        return $result;
+        //$this->subjects=$subjects;
+        $this->result=$result;
     }
 }

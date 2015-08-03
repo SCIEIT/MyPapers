@@ -6,13 +6,12 @@
         <br><br>
         <h1 class="header center teal-text text-lighten-2"> MyPapers</h1>
         <div class="row center">
-          <h5 class="header col s12 black-text">Artificial Intelegence enhanced past-paper centre.</h5>
+          <h5 class="header col s12">Artificial Intelegence enhanced past-paper centre.</h5>
         </div>
         <div class="row center">
           <a href="<?=U('home/list/catebase');?>" class="waves-effect waves-light btn-large">Get Started</a>
         </div>
         <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="__PUBLIC__/res/index/background1.jpg" alt="Unsplashed background img 1"></div>
@@ -111,4 +110,11 @@
       </div>
     </div>
   </div>
+</block>
+<block name="customJS">
+  <script>
+    $(document).ready(function(){
+         $('.parallax').parallax();
+       });
+  </script>
 </block>

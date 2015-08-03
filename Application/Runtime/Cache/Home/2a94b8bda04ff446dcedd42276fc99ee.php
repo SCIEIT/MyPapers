@@ -22,13 +22,12 @@
         <br><br>
         <h1 class="header center teal-text text-lighten-2"> MyPapers</h1>
         <div class="row center">
-          <h5 class="header col s12 black-text">Artificial Intelegence enhanced past-paper centre.</h5>
+          <h5 class="header col s12">Artificial Intelegence enhanced past-paper centre.</h5>
         </div>
         <div class="row center">
           <a href="<?=U('home/list/catebase');?>" class="waves-effect waves-light btn-large">Get Started</a>
         </div>
         <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="/Public/res/index/background1.jpg" alt="Unsplashed background img 1"></div>
@@ -140,6 +139,11 @@
 <script src="/Public/js/materialize.min.js"></script>
 <script src="/Public/js/custom/index/init.js"></script>
 
+  <script>
+    $(document).ready(function(){
+         $('.parallax').parallax();
+       });
+  </script>
 
 <script>
   $(document).ready(function(){

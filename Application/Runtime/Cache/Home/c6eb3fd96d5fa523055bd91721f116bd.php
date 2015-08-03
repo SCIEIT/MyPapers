@@ -25,38 +25,48 @@
         </div>
     </div>
 	<ul class="collapsible popout" data-collapsible="accordion">
-	    <?php foreach($subjects as $subject){?>
+	    <?php foreach($papers as $code => $subject){?>
 	    	<li>
 	    	  <div class="collapsible-header">
 		    	  <i class="fa  fa-bookmark-o"></i><?=$subject['subject_name']?> <?=$subject['subject_code']?>
 		    	   <a class="right" href="http://<?=$_SERVER['HTTP_HOST']?>/Papers_DIR/packed/<?=$subject['subject_code']?>.zip"><i class="fa fa-cloud-download"></i></a>
 	    	  </div>
-	    	  <div class="collapsible-body"><p><?=$subject['subject_description']?></p>
-	    	  <?php if(!empty($papers[$subject['subject_code']])){ ?>
-	    	  <div class="container">
-	    	  <table>
-	    	        <thead>
-	    	          <tr>
-	    	              <th>Year</th>
-	    	              <th>month</th>
-	    	              <th>type</th>
-	    	              <th>views</th>
-	    	              <th></th>
-	    	          </tr>
-	    	        </thead>
-	    	        <tbody>
-	    	        <?php foreach ($papers[$subject['subject_code']] as $paper){?>
-	    	          <tr>
-	    	            <td><?=$paper['paper_year']?></td>
-	    	            <td><?=$paper['paper_month']?></td>
-	    	            <td><?=$paper['paper_type']?> <?=$paper['paper_num']?></td>
-	    	            <td><?=$paper['paper_view']?></td>
-	    	            <td><a class="right" href="http://<?=$_SERVER['HTTP_HOST']?>/Papers_DIR/unpacked/<?=$paper['paper_name']?>"><i class="fa fa-download"></i></a></td>
-	    	          </tr>
+	    	  <div class="collapsible-body">
+	    	  <?php if(!empty($subject['years'])){ ?>
+	    	  	&nbsp &nbsp &nbsp please click the years to view
+	    	        <ul class="collapsible" data-collapsible="accordion">
+	    	        <?php foreach ($subject['years'] as $year=>$papers){?>
+	    	        	    <li>
+	    	        	      <div class="collapsible-header">Year <?=empty($year)?'?':$year;?></div>
+	    	        	      <div class="collapsible-body">
+	    	        	 	<div class="container">
+	    	        	      	<table>
+	    	        	      	      <thead>
+	    	        	      	        <tr>
+	    	        	      	            <th>month</th>
+	    	        	      	            <th>type</th>
+	    	        	      	            <th>views</th>
+	    	        	      	            <th></th>
+	    	        	      	        </tr>
+	    	        	      	      </thead>
+	    	        	      	      <tbody>
+	    	        	      	      <?php foreach ($papers as $paper) { ?>
+	    	        	      	      	<tr>
+	    	        	      	      	  <td><?=$paper['paper_month']?></td>
+	    	        	      	      	  <td><?=$paper['paper_type']?> <?=$paper['paper_num']?></td>
+	    	        	      	      	  <td><?=$paper['paper_view']?></td>
+	    	        	      	      	  <td><a class="right" href="http://<?=$_SERVER['HTTP_HOST']?>/Papers_DIR/unpacked/<?=$paper['paper_name']?>"><i class="fa fa-download"></i></a></td>
+	    	        	      	      	</tr>
+	    	        	      	      <?php }?>
+	      	      	    	        </tbody>
+	      	      	    	      </table>
+	      	      	    	     </div>
+	    	        	      </div>
+	    	        	    </li>
+	    	          
 	    	        <?php }?>
-	    	        </tbody>
-	    	      </table>
-	    	      </div>
+
+	    	      </ul>
 	    	      <?php } ?>
 	    	  </div>
 	    	</li>
