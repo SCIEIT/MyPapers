@@ -47,6 +47,7 @@
 	    	        	      	            <th>type</th>
 	    	        	      	            <th>views</th>
 	    	        	      	            <th></th>
+	    	        	      	            <th></th>
 	    	        	      	        </tr>
 	    	        	      	      </thead>
 	    	        	      	      <tbody>
@@ -55,7 +56,8 @@
 	    	        	      	      	  <td><?=$paper['paper_month']?></td>
 	    	        	      	      	  <td><?=$paper['paper_type']?> <?=$paper['paper_num']?></td>
 	    	        	      	      	  <td><?=$paper['paper_view']?></td>
-	    	        	      	      	  <td><a class="right" href="http://<?=$_SERVER['HTTP_HOST']?>/Papers_DIR/unpacked/<?=$paper['paper_name']?>"><i class="fa fa-download"></i></a></td>
+	    	        	      	      	  <td><a class="right" href="http://<?=$_SERVER['HTTP_HOST']?>/Papers_DIR/unpacked/<?=$paper['paper_name']?>"><i class="fa fa-eye"></i></a></td>
+	    	        	      	      	  <td><a class="right" href="#"><i class="fa fa-download"></i></a></td>
 	    	        	      	      	</tr>
 	    	        	      	      <?php }?>
 	      	      	    	        </tbody>

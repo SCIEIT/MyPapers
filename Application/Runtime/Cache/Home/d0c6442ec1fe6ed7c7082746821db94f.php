@@ -7,6 +7,7 @@
   <link href="/Public/css/font.css" rel="stylesheet">
   <link href="/Public/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" type="text/css" href="/Public/css/font-awesome-4.3.0/css/font-awesome.min.css" />
+  <link href="/Public/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
     <div style="position:absolute; left:47%; top:47%" id="preloader"><div class="preloader-wrapper big active">
       <div class="spinner-layer spinner-blue">
