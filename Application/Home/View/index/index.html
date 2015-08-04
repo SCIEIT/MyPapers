@@ -1,4 +1,7 @@
 <extend name="./Application/Home/View/base.html"/>
+<block name="customCSS">
+  <link href="__PUBLIC__/css/custom/index/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</block>
 <block name="body">
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -112,9 +115,5 @@
   </div>
 </block>
 <block name="customJS">
-  <script>
-    $(document).ready(function(){
-         $('.parallax').parallax();
-       });
-  </script>
+  <script src="__PUBLIC__/js/custom/index/init.js"></script>
 </block>

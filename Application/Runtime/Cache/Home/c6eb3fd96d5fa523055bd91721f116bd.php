@@ -85,7 +85,6 @@
   <!--  Scripts-->
 <script src="/Public/js/jquery-2.1.1.min.js"></script>
 <script src="/Public/js/materialize.min.js"></script>
-<script src="/Public/js/custom/index/init.js"></script>
 
 
 <script>

@@ -1,4 +1,5 @@
 <?php if (!defined('THINK_PATH')) exit();?>
+  <link href="/Public/css/custom/index/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 <body style="display:none">
 
@@ -137,13 +138,8 @@
   <!--  Scripts-->
 <script src="/Public/js/jquery-2.1.1.min.js"></script>
 <script src="/Public/js/materialize.min.js"></script>
-<script src="/Public/js/custom/index/init.js"></script>
 
-  <script>
-    $(document).ready(function(){
-         $('.parallax').parallax();
-       });
-  </script>
+  <script src="/Public/js/custom/index/init.js"></script>
 
 <script>
   $(document).ready(function(){
