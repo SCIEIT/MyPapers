@@ -73,7 +73,7 @@ class ListController extends BaseController {
 			}
 		}
 		$found=false;
-		foreach ($result as $index=>$r)
+		foreach ($result as $index=>$r){
 		  	foreach ($r['years'] as $i=>$data)
 			{
 				if (!empty($data)) 
@@ -82,6 +82,10 @@ class ListController extends BaseController {
 					unset($result[$index]['years'][$i]);
 				}
 			}
+			if(empty($r['years'])){
+				unset($result[$index]);
+			}
+		}
 		if ($found)
         	$this->assign('papers',$result);
 		else 
@@ -93,7 +97,6 @@ class ListController extends BaseController {
         $this->getThings();
     	//$this->assign('subjects',$this->subjects);
         $this->assign('papers',$this->result);
-		var_dump($this->result);
     	$this->display('catebase');
     }
     private function getThings(){
