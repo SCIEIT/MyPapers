@@ -5,13 +5,15 @@
 
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="<?=U('index/index')?>" class="brand-logo">MyPapers</a>
+      <a id="logo-container" href="<?=U('home/index/index')?>" class="brand-logo">MyPapers</a>
       <ul id="nav-mobile" class="side-nav">
-        <li><a class="waves-effect" href="#">Get Started</a></li>
+        <li><a class="waves-effect" href="<?=U('home/list/catebase')?>">Paper List</a></li>
+        <li><a class="waves-effect" href="<?=U('home/upload/papers')?>">Paper Upload</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-navicon"></i><!-- <i class="material-icons">menu</i> --></a>
       <ul class="right hide-on-med-and-down">
-        <li><a class="waves-effect" href="#">Get Started</a></li>
+        <li><a class="waves-effect" href="<?=U('home/list/catebase')?>">Paper List</a></li>
+        <li><a class="waves-effect" href="<?=U('home/upload/papers')?>">Paper Upload</a></li>
       </ul>
     </div>
   </nav>
@@ -141,10 +143,12 @@
 
   <script src="/Public/js/custom/index/init.js"></script>
 
+
 <script>
   $(document).ready(function(){
     $("#preloader").remove();
     $("body").show();
+    $('.button-collapse').sideNav();
   });
 </script>
 </body>

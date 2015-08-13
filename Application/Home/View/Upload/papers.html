@@ -1,0 +1,27 @@
+<extend name="./Application/Home/View/base.html"/>
+<block name="body">
+	<div class="col s10">
+		<h2 class="center-align">Upload Infor. Collection</h2>
+	</div>
+	<br/>
+	<h5 class="center-align">Our uploading system can't tolerate your attacks!</h5>
+	<h6 class="center-align">Please be nice to it and don't upload trash files.</h6>
+    <div class="row">
+    <form class="col s12" action="<?=U('home/api/uploadPaper')?>" enctype="multipart/form-data" method="post" >
+	    <!-- <input type="text" name="name" />
+	    <input type="file" multiple name="paper[]" />
+	    <input type="submit" value="提交" > -->
+	        <div class="file-field input-field col s12">
+		        <input type="text" name="name" class="file-path validate col s10"/>
+		          <div class="btn col s2">
+		            <span>File</span>
+		            <input type="file" multiple name="paper[]" />
+		          </div>
+	        </div>
+	        <h6>We are sorry but we are currently testing the stability of our server. For safty of the server, your uploads will take some time to be listed in our database.</h6>
+	        <hr/>
+	        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+  </button>
+    </form>
+    </div>
+</block>
