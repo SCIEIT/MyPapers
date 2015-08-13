@@ -52,19 +52,19 @@ class ListController extends BaseController {
 		}
 		else 
 		{
-			$subjects=$subjects->select();
+			$subjects=D('papers')->where($con)->group('subject_code')->getField('subject_code',true);
 			foreach ($subjects as $subject)
 			{
-				$result[$subject['subject_code']]=$subject;
-				$yearArr=D('papers')->where($con)->where(['subject_code'=>$subject['subject_code']])->group('paper_year')->getField('paper_year',true);
-				
+				$result[$subject]=D('subjects')->find($subject);
+				$yearArr=D('papers')->where($con)->where(['subject_code'=>$subject])->group('paper_year')->getField('paper_year',true);
+				$tmp=$con;
 				foreach ($yearArr as $year) 
 				{
-					$con['suject_code']=$suject['subject_code'];
-					$con['paper_year']=$year;
-					$data=D('papers')->where($con)->select();
+					$tmp['suject_code']=$subject;
+					$tmp['paper_year']=$year;
+					$data=D('papers')->where($tmp)->select();
                 	if (!empty($data))
-                		$result[$subject['subject_code']]['years'][$year]=$data;
+                		$result[$subject]['years'][$year]=$data;
 				}			
 			}
 			if (!empty($_POST['paper']))
