@@ -73,9 +73,15 @@ class ListController extends BaseController {
 			}
 		}
 		$found=false;
-		foreach ($result as $r)
-		  	foreach ($r['years'] as $data)
-				if (!empty($data)) $found=true;
+		foreach ($result as $index=>$r)
+		  	foreach ($r['years'] as $i=>$data)
+			{
+				if (!empty($data)) 
+					$found=true;
+				else {
+					unset($result[$index]['years'][$i]);
+				}
+			}
 		if ($found)
         	$this->assign('papers',$result);
 		else 
