@@ -1,8 +1,6 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-use Common\Extensions\PHPExcel;
-use Common\Extensions\Hello;
 class IndexController extends BaseController {
     public function _initialize(){
     	header("Content-type: text/html;charset=utf-8");

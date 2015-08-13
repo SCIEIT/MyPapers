@@ -7,16 +7,18 @@
       <a id="logo-container" href="<?=U('home/index/index')?>" class="brand-logo">MyPapers</a>
       <ul id="nav-mobile" class="side-nav">
         <li><a class="waves-effect" href="<?=U('home/list/catebase')?>">Paper List</a></li>
+        <li><a class="waves-effect" href="<?=U('home/upload/papers')?>">Paper Upload</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-navicon"></i><!-- <i class="material-icons">menu</i> --></a>
       <ul class="right hide-on-med-and-down">
         <li><a class="waves-effect" href="<?=U('home/list/catebase')?>">Paper List</a></li>
+        <li><a class="waves-effect" href="<?=U('home/upload/papers')?>">Paper Upload</a></li>
       </ul>
     </div>
   </nav>
 
 
-	<a>*只需至少选择一项信息即可开始搜索,不确定的信息处可以留白，eg.只想搜所有科目2014的试卷只要在Year处选择2014即可</a>
+<!-- 	<a>*只需至少选择一项信息即可开始搜索,不确定的信息处可以留白，eg.只想搜所有科目2014的试卷只要在Year处选择2014即可</a> -->
 	<div class="row">
 		
 		    <div class="input-field col l2 m4 s6">
