@@ -6,25 +6,29 @@ class ListController extends BaseController {
     	$this->catebase();
     }
 	public function search(){
+		if(empty($_POST['year'])&&empty($_POST['paper'])&&empty($_POST['summer'])&&empty($_POST['qp'])&&empty($_POST['winter'])&&empty($_POST['subject'])&&empty($_POST['ms'])){
+			$this->catebase();
+			exit();
+		}
     	$this->initialize('PapersList');
 		$subjects=D('subjects');
-		if (!empty($_GET['year']))
-			$con['paper_year']=$_GET['year'];
-		if (!empty($_GET['summer'])&&empty($_GET['winter']))
+		if (!empty($_POST['year']))
+			$con['paper_year']=$_POST['year'];
+		if (!empty($_POST['summer'])&&empty($_POST['winter']))
 			$con['paper_month']='s';
-		else if (empty($_GET['summer'])&&!empty($_GET['winter']))
+		else if (empty($_POST['summer'])&&!empty($_POST['winter']))
 			$con['paper_month']='w';
-	    if (!empty($_GET['qp'])&&empty($_GET['ms']))
+	    if (!empty($_POST['qp'])&&empty($_POST['ms']))
 			$con['paper_type']='qp';
-		else if (empty($_GET['qp'])&&!empty($_GET['ms']))
+		else if (empty($_POST['qp'])&&!empty($_POST['ms']))
 			$con['paper_type']='ms'; 
-		if (!empty($_GET['subject']))
+		if (!empty($_POST['subject']))
 		{
-			$con['subject_code']=$_GET['subject'];
-			$subjects=$subjects->where(['subject_code'=>$_GET['subject']])->select();
+			$con['subject_code']=$_POST['subject'];
+			$subjects=$subjects->where(['subject_code'=>$_POST['subject']])->select();
 			foreach ($subjects as $subject)
 			{
-				$result[$_GET['subject']]=$subject;
+				$result[$_POST['subject']]=$subject;
 				$yearArr=D('papers')->where($con)->group('paper_year')->getField('paper_year',true);
 				foreach ($yearArr as $year) 
 				{
@@ -35,13 +39,13 @@ class ListController extends BaseController {
                 		$result[$subject['subject_code']]['years'][$year]=$data;
 				}
 			}
-			if (!empty($_GET['paper']))
+			if (!empty($_POST['paper']))
 			{
-				foreach ($result[$_GET['subject']]['years'] as $index=>$r)
+				foreach ($result[$_POST['subject']]['years'] as $index=>$r)
 				{
 					foreach ($r as $num=>$p)
 					{
-						if ($p['paper_num'][0]!=$_GET['paper'])  unset($result[$_GET['subject']]['years'][$index][$num]);
+						if ($p['paper_num'][0]!=$_POST['paper'])  unset($result[$_POST['subject']]['years'][$index][$num]);
 					}
 				}
 			}
@@ -63,12 +67,12 @@ class ListController extends BaseController {
                 		$result[$subject['subject_code']]['years'][$year]=$data;
 				}			
 			}
-			if (!empty($_GET['paper']))
+			if (!empty($_POST['paper']))
 			{
 				foreach ($result as $i=>$d)
 					foreach ($d['years'] as $index=>$r)
 						foreach ($r as $num=>$p)
-							if ($p['paper_num'][0]!=$_GET['paper'])  unset($result[$i]['years'][$index][$num]);
+							if ($p['paper_num'][0]!=$_POST['paper'])  unset($result[$i]['years'][$index][$num]);
 					
 			}
 		}

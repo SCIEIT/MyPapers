@@ -1,0 +1,1 @@
+a:5:{i:0;s:12:"subject_code";i:1;s:12:"subject_name";i:2;s:19:"subject_description";s:3:"_pk";s:12:"subject_code";s:5:"_type";a:3:{s:12:"subject_code";s:10:"varchar(4)";s:12:"subject_name";s:11:"varchar(25)";s:19:"subject_description";s:12:"varchar(225)";}}

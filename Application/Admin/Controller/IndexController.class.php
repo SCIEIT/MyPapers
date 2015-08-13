@@ -24,8 +24,9 @@ class IndexController extends BaseController {
     	$subjects=D('subjects')->select();
     	$count=0;
     	$except=[];
+        $model=D('papers');
     	foreach($PapersArr as $name=>$value){
-    		if(D('papers')->where(["paper_name"=>$name])->count()==0){
+    		if($model->where(["paper_name"=>$name])->count()==0){
     			$paper['paper_name']=$name;
 	    		preg_match("/\d{4}/", $name ,$code);
                 $paper['subject_code']=$code[0];
@@ -48,7 +49,8 @@ class IndexController extends BaseController {
                     preg_match("/[a-zA-Z]{2}/", $name ,$type);
                     $paper['paper_type']=$type[0];
                 }
-	    		D('papers')->add($paper);
+                $field=array('paper_name', 'subject_code', 'paper_year', 'paper_month', 'paper_type', 'paper_num');
+	    		$model->field($field)->add($paper);
 	    		echo '添加数据：'.$name.';<br/>';
 	    	}else{
 	    		$count++;
@@ -57,8 +59,5 @@ class IndexController extends BaseController {
     	echo '<br/><br/><hr/><br/><br/>跳过了：'.$count.'个已记录项目<br/><br/><br/><hr/><br/><br/>';
     	echo '无法识别的科目：';
     	var_dump($except);
-    }
-    private function readPaper(){
-    	$phpExcel=new PHPExcel();
     }
 }
