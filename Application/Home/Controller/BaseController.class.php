@@ -3,9 +3,9 @@ namespace Home\Controller;
 use Think\Controller;
 class BaseController extends Controller {
 	public function initialize($title){
-    $this->assign('title',$title);
-    $this->display('./head');
-    ob_flush();
-    flush();
+	    $this->assign('title',$title);
+	    $this->display('./head');
+	    ob_flush();
+	    flush();
 	}
 }

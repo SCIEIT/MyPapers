@@ -6,6 +6,7 @@ class ListController extends BaseController {
     	$this->catebase();
     }
 	public function search(){
+		ini_set("memory_limit","-1");
 		if(empty($_POST['year'])&&empty($_POST['paper'])&&empty($_POST['summer'])&&empty($_POST['qp'])&&empty($_POST['winter'])&&empty($_POST['subject'])&&empty($_POST['ms'])){
 			$this->catebase();
 			exit();
