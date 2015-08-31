@@ -23,6 +23,8 @@ class ListController extends BaseController {
 			$con['paper_type']='qp';
 		else if (empty($_POST['qp'])&&!empty($_POST['ms']))
 			$con['paper_type']='ms'; 
+		else if (!empty($_POST['qp'])&&!empty($_POST['ms']))
+			$con['paper_type']=array(array('EQ','qp'),array('EQ','ms'),'or'); 
 		if (!empty($_POST['subject']))
 		{
 			$con['subject_code']=$_POST['subject'];
@@ -33,9 +35,9 @@ class ListController extends BaseController {
 				$yearArr=D('papers')->where($con)->group('paper_year')->getField('paper_year',true);
 				foreach ($yearArr as $year) 
 				{
-                	$con['suject_code']=$suject['subject_code'];
+                	$con['subject_code']=$suject['subject_code'];
 					$con['paper_year']=$year;
-					$data=D('papers')->where($con)->select();
+					$data=D('papers')->where($con)->order('paper_type desc,paper_num asc')->select();
                 	if (!empty($data))
                 		$result[$subject['subject_code']]['years'][$year]=$data;
 				}
@@ -61,21 +63,24 @@ class ListController extends BaseController {
 				$tmp=$con;
 				foreach ($yearArr as $year) 
 				{
-					$tmp['suject_code']=$subject;
+					$tmp['subject_code']=$subject;
 					$tmp['paper_year']=$year;
-					$data=D('papers')->where($tmp)->select();
+					if(!empty($_POST['paper'])){
+						$tmp['paper_num']=$_POST['paper'];
+					}
+					$data=D('papers')->where($tmp)->order('paper_type desc,paper_num asc')->select();
                 	if (!empty($data))
                 		$result[$subject]['years'][$year]=$data;
 				}			
 			}
-			if (!empty($_POST['paper']))
-			{
-				foreach ($result as $i=>$d)
-					foreach ($d['years'] as $index=>$r)
-						foreach ($r as $num=>$p)
-							if ($p['paper_num'][0]!=$_POST['paper'])  unset($result[$i]['years'][$index][$num]);
+			// if (!empty($_POST['paper']))
+			// {
+			// 	foreach ($result as $i=>$d)
+			// 		foreach ($d['years'] as $index=>$r)
+			// 			foreach ($r as $num=>$p)
+			// 				if ($p['paper_num'][0]!=$_POST['paper'])  unset($result[$i]['years'][$index][$num]);
 					
-			}
+			// }
 		}
 		$found=false;
 		foreach ($result as $index=>$r){
@@ -113,7 +118,7 @@ class ListController extends BaseController {
             $yearArr=D('papers')->where($where)->group('paper_year')->getField('paper_year',true);
             $result[$subject['subject_code']]=$subject;
             foreach ($yearArr as $year) {
-                $result[$subject['subject_code']]['years'][$year]=D('papers')->where(['subject_code'=>$subject['subject_code'],'paper_year'=>$year])->select();
+                $result[$subject['subject_code']]['years'][$year]=D('papers')->where(['subject_code'=>$subject['subject_code'],'paper_year'=>$year])->order('paper_type desc,paper_num asc')->select();
             }
         }
         //$this->subjects=$subjects;

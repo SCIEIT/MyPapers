@@ -8,8 +8,7 @@
   <link href="/Public/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" type="text/css" href="/Public/css/font-awesome-4.3.0/css/font-awesome.min.css" />
   <link href="/Public/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-</head>
-    <div style="position:absolute; left:47%; top:47%" id="preloader"><div class="preloader-wrapper big active">
+    <div style="position:absolute; left:46%; top:46%" id="preloader"><div class="preloader-wrapper big active">
       <div class="spinner-layer spinner-blue">
         <div class="circle-clipper left">
           <div class="circle"></div>
@@ -49,3 +48,13 @@
         </div>
       </div>
     </div><h4 class="center">Loading...</h2></div>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?3965a44e3931ee2918806e17aab364aa";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</head>

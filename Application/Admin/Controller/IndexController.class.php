@@ -1,6 +1,8 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
+#!/usr/bin/perl
+use cPanelUserConfig;
 class IndexController extends BaseController {
     public function _initialize(){
     	header("Content-type: text/html;charset=utf-8");
@@ -18,7 +20,26 @@ class IndexController extends BaseController {
    		}
     }
     public function proceedpapers(){
-
+    }
+    public function packpapers(){
+        $subjects=D('subjects')->select();
+        foreach ($subjects as $subject) {
+            $zip=new ZipArchive();
+                if($zip->open('./Papers_DIR/packed/'.$subject['subject_code'].'.zip',ZipArchive::OVERWRITE)===TRUE){
+                echo '成功创建:'.$subject['subject_code'].'.zip--'.$subject['subject_name'].'<br/>';
+                $papers=D('papers')->where(['subject_code'=>$subject['subject_code']])->getFeild('paper_name');
+                foreach ($papers as $paper) {
+                    $zip->addFile('./Papers_DIR/unpacked/'.$paper);
+                    echo '.';
+                    ob_flush();
+                    flush();
+                }
+                $zip->close();
+                echo '完成添加数据。<br/>';
+                ob_flush();
+                flush();
+            }
+        }
     }
     private function initializePapers($PapersArr){
     	$subjects=D('subjects')->select();

@@ -91,7 +91,7 @@
 	    <?php foreach($papers as $code => $subject){?>
 	    	<li>
 	    	  <div class="collapsible-header">
-		    	  <i class="fa  fa-bookmark-o"></i><?=$subject['subject_name']?> <?=$subject['subject_code']?>
+		    	  <?=$subject['subject_name']?> <?=$subject['subject_code']?>
 		    	   <a class="right" href="http://<?=$_SERVER['HTTP_HOST']?>/Papers_DIR/packed/<?=$subject['subject_code']?>.zip"><i class="fa fa-cloud-download"></i></a>
 	    	  </div>
 	    	  <div class="collapsible-body">
@@ -106,8 +106,8 @@
 	    	        	      	<table>
 	    	        	      	      <thead>
 	    	        	      	        <tr>
-	    	        	      	            <th>month</th>
 	    	        	      	            <th>type</th>
+                                      <th>season</th>
 	    	        	      	            <th>views</th>
 	    	        	      	            <th></th>
 	    	        	      	            <th></th>
@@ -116,8 +116,8 @@
 	    	        	      	      <tbody>
 	    	        	      	      <?php foreach ($papers as $paper) { ?>
 	    	        	      	      	<tr>
-	    	        	      	      	  <td><?=$paper['paper_month']?></td>
 	    	        	      	      	  <td><?=$paper['paper_type']?> <?=$paper['paper_num']?></td>
+                                    <td><?php if($paper['paper_month']=='w'){ echo 'winter'; }else if($paper['paper_month']=='s'){ echo 'summer'; }?></td>
 	    	        	      	      	  <td><?=$paper['paper_view']?></td>
 	    	        	      	      	  <td><a class="right" href="/Papers_DIR/unpacked/<?=$paper['paper_name']?>"><i class="fa fa-eye"></i></a></td>
 	    	        	      	      	  <td><a class="right" href="<?=U('home/api/downloadPaper?filename='.$paper['paper_name']);?>"><i class="fa fa-download"></i></a></td>

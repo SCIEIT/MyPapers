@@ -88,7 +88,7 @@
         <div class="col s12 center">
           <h3> <i class="fa fa-gift fa-3x"></i></h3>
           <h4>It is also <strong>your</strong> website!</h4>
-          <p class="left-align light">Everything on this website can be <strong>downloaded in batches(compressed ZIP)</strong>. We will make no effort to reserve our resources and try try to provide the best download service. We also ask for your contributions to the <strong>sorting of the papers and the key points</strong>.</p>
+          <p class="left-align light">Everything on this website can be <strong>downloaded in batches(compressed ZIP)</strong>. We will make no effort to reserve our resources and try to provide the best download service. We also ask for your contributions to the <strong>sorting of the papers and the key points</strong>.</p>
         </div>
       </div>
 
