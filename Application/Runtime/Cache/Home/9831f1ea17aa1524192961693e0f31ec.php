@@ -21,8 +21,24 @@
 
 
 <!-- 	<a>*只需至少选择一项信息即可开始搜索,不确定的信息处可以留白，eg.只想搜所有科目2014的试卷只要在Year处选择2014即可</a> -->
+  <div class="blue-grey darken-2">
+    <br/>
+    <h1 class="center-align white-text"><i class="fa fa-search"></i></h1>
+    <h4 class="center-align white-text">Paper Search BETA</h4>
+    <p class="center-align white-text">In the advanced paper search function, you may search for anything in any question paper and/or markscheme of a specific subject. The advanced search module is the basis of our intelligence.</p>
+    <br/>
+  </div>
+  <blockquote class="hoverable">
+    <br/>
+    <h5 class="blue-text text-lighten-1"><strong>Knowledge</strong> is having <strong>ALL the Answers</strong>.<br/></h5>
+    <h4 class="blue-text text-darken-2"><strong>Intelligence</strong> is having <strong>THE Right Answer</strong>.</h4>
+    <br/>
+  </blockquote>
+  <div class="row">
+
+  </div>
 	<div class="row">
-		  <form action="<?=U('home/list/search')?>" enctype="multipart/form-data" method="post">
+		  <form action="<?=U('home/advancedsearch/search')?>" enctype="multipart/form-data" method="post">
 		    <div class="input-field col l2 m4 s6">
           <input id="subject" type="text" class="validate" name="subject">
           <label for="subject">Subject Code</label>
@@ -79,61 +95,36 @@
       			<label for="ms">Answer Paper</label>
     		</p>
     	 </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="txtwords" name='keywords' class="materialize-textarea"></textarea>
+            <label for="textarea1">Keywords( Please separate by semicolon--';' )</label>
+          </div>
+          </div>
+       </div>
     	 <div class="input-field col l2 m12 s12">
            <!-- <a  class="waves-effect waves-light btn" onclick="Search()">Search  <i class="fa fa-search"></i></a> -->
            <button class="btn waves-effect waves-light" type="submit" name="action">Search  <i class="fa fa-search"></i>
-  </button>
+        </button>
     	</div>
       </form>
     </div>
-    <?php  if (empty($papers)) {?>
+    <?php if(!isset($result)){?>
+      <big>Now, let's rock.</big>
+    <?php }else if (empty($result)) {?>
     	<big>Sorry! No matching paper found.</big>
     <?php } else { ?>
 	<ul class="collapsible popout" data-collapsible="accordion">
-	    <?php foreach($papers as $code => $subject){?>
+	    <?php foreach($result as $paper){?>
 	    	<li>
-	    	  <div class="collapsible-header">
-		    	  <?=$subject['subject_name']?> <?=$subject['subject_code']?>
-		    	   <a class="right" href="http://<?=$_SERVER['HTTP_HOST']?>/Papers_DIR/packed/<?=$subject['subject_code']?>.zip"><i class="fa fa-cloud-download"></i></a>
+	    	  <div class="collapsible-header"> <?=$paper['paper_name']?> <?=$subject['subject_code']?>
+		    	   <td><a class="right" href="/Papers_DIR/unpacked/<?=$paper['paper_name']?>"><i class="fa fa-eye"></i></a></td>
+             <td><a class="right" href="<?=U('home/api/downloadPaper?filename='.$paper['paper_name']);?>"><i class="fa fa-download"></i></a></td>
 	    	  </div>
 	    	  <div class="collapsible-body">
-	    	  <?php if(!empty($subject['years'])){ ?>
-	    	  	&nbsp &nbsp &nbsp please click the years to view
-	    	        <ul class="collapsible" data-collapsible="accordion">
-	    	        <?php foreach ($subject['years'] as $year=>$papers){?>
-	    	        	    <li>
-	    	        	      <div class="collapsible-header">Year <?=empty($year)?'?':$year;?></div>
-	    	        	      <div class="collapsible-body">
-	    	        	 	<div class="container">
-	    	        	      	<table>
-	    	        	      	      <thead>
-	    	        	      	        <tr>
-	    	        	      	            <th>type</th>
-                                      <th>season</th>
-	    	        	      	            <th>views</th>
-	    	        	      	            <th></th>
-	    	        	      	            <th></th>
-	    	        	      	        </tr>
-	    	        	      	      </thead>
-	    	        	      	      <tbody>
-	    	        	      	      <?php foreach ($papers as $paper) { ?>
-	    	        	      	      	<tr>
-	    	        	      	      	  <td><?=$paper['paper_type']?> <?=$paper['paper_num']?></td>
-                                    <td><?php if($paper['paper_month']=='w'){ echo 'winter'; }else if($paper['paper_month']=='s'){ echo 'summer'; }?></td>
-	    	        	      	      	  <td><?=$paper['paper_view']?></td>
-	    	        	      	      	  <td><a class="right" href="/Papers_DIR/unpacked/<?=$paper['paper_name']?>"><i class="fa fa-eye"></i></a></td>
-	    	        	      	      	  <td><a class="right" href="<?=U('home/api/downloadPaper?filename='.$paper['paper_name']);?>"><i class="fa fa-download"></i></a></td>
-	    	        	      	      	</tr>
-	    	        	      	      <?php }?>
-	      	      	    	        </tbody>
-	      	      	    	      </table>
-	      	      	    	     </div>
-	    	        	      </div>
-	    	        	    </li>
-	    	        <?php }?>
-
-	    	      </ul>
-	    	      <?php } ?>
+            <?php if($con){ foreach ($paper['modified_content'] as $substring) {?>
+              <blockquote><?=$substring?></blockquote>
+            <?php } }else{ echo '<big>Too many results, we can\'t show the content matched</big>'; }?>
 	    	  </div>
 	    	</li>
 	    <?php } ?>

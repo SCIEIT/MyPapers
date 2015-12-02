@@ -8,13 +8,11 @@
       <ul id="nav-mobile" class="side-nav">
         <li><a class="waves-effect" href="<?=U('home/list/catebase')?>">Paper List</a></li>
         <li><a class="waves-effect" href="<?=U('home/upload/papers')?>">Paper Upload</a></li>
-        <li><a class="waves-effect" href="<?=U('home/advancedsearch/search')?>">Advanced Search(BETA)</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="fa fa-navicon"></i><!-- <i class="material-icons">menu</i> --></a>
       <ul class="right hide-on-med-and-down">
         <li><a class="waves-effect" href="<?=U('home/list/catebase')?>">Paper List</a></li>
         <li><a class="waves-effect" href="<?=U('home/upload/papers')?>">Paper Upload</a></li>
-        <li><a class="waves-effect" href="<?=U('home/advancedsearch/search')?>">Advanced Search(BETA)</a></li>
       </ul>
     </div>
   </nav>

@@ -13,6 +13,7 @@ class ListController extends BaseController {
 		}
     	$this->initialize('PapersList');
 		$subjects=D('subjects');
+		$con=array();
 		if (!empty($_POST['year']))
 			$con['paper_year']=$_POST['year'];
 		if (!empty($_POST['summer'])&&empty($_POST['winter']))
@@ -28,19 +29,16 @@ class ListController extends BaseController {
 		if (!empty($_POST['subject']))
 		{
 			$con['subject_code']=$_POST['subject'];
-			$subjects=$subjects->where(['subject_code'=>$_POST['subject']])->select();
-			foreach ($subjects as $subject)
+			$subjects=$subjects->where(['subject_code'=>$_POST['subject']])->find();
+			$result[$_POST['subject']]=$subjects;
+			$yearArr=D('papers')->where($con)->group('paper_year')->getField('paper_year',true);
+			foreach ($yearArr as $year) 
 			{
-				$result[$_POST['subject']]=$subject;
-				$yearArr=D('papers')->where($con)->group('paper_year')->getField('paper_year',true);
-				foreach ($yearArr as $year) 
-				{
-                	$con['subject_code']=$suject['subject_code'];
-					$con['paper_year']=$year;
-					$data=D('papers')->where($con)->order('paper_type desc,paper_num asc')->select();
-                	if (!empty($data))
-                		$result[$subject['subject_code']]['years'][$year]=$data;
-				}
+            	$con['subject_code']=$_POST['subject'];
+				$con['paper_year']=$year;
+				$data=D('papers')->where($con)->field('paper_content',true)->order('paper_type desc,paper_num asc')->select();
+            	if (!empty($data))
+            		$result[$_POST['subject']]['years'][$year]=$data;
 			}
 			if (!empty($_POST['paper']))
 			{
@@ -68,7 +66,7 @@ class ListController extends BaseController {
 					if(!empty($_POST['paper'])){
 						$tmp['paper_num']=$_POST['paper'];
 					}
-					$data=D('papers')->where($tmp)->order('paper_type desc,paper_num asc')->select();
+					$data=D('papers')->where($tmp)->field('paper_content',true)->order('paper_type desc,paper_num asc')->select();
                 	if (!empty($data))
                 		$result[$subject]['years'][$year]=$data;
 				}			

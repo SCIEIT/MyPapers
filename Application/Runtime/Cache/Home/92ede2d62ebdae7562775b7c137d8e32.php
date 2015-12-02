@@ -116,10 +116,12 @@
 
 <script>
   $(document).ready(function(){
-    $("#preloader").remove();
-    $("body").show();
     $('.button-collapse').sideNav();
   });
+  window.onload=function(){
+    $("#preloader").remove();
+    $("body").show();
+  }
 </script>
 </body>
 </html>
