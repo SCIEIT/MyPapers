@@ -139,6 +139,25 @@
 	    <?php } ?>
 	</ul>
 	<?php } ?>
+  <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+      <a class="btn-floating btn-large red">
+        <i class="large fa fa-bars"></i>
+      </a>
+      <ul>
+        <li><a class="btn-floating yellow darken-1"><i class="fa fa-connectdevelop"></i></a></li>
+        <li><a class="btn-floating green" href="<?=U('list/catebase',['grade'=>'0'])?>">IG</a></li>
+        <li><a class="btn-floating blue" href="<?=U('list/catebase',['grade'=>'1'])?>">AL</a></li>
+      </ul>
+    </div>
+  <div class="row">
+    <ul class="col s5 pagination offset-s4">
+      <li class="waves-effect <?=$page=='1'?'disabled':''?>"><a href="<?=U('list/catebase',['page'=>$page-1])?>"><i class="fa fa-angle-double-left"></i></a></li>
+      <?php for ($i=1;$i<=$maxpage;++$i){ ?>
+        <li <?=$i==$page?'class="active teal"':''?>><a href="<?=U('list/catebase',['page'=>$i])?>"><?=$i?></a></li>
+      <?php } ?>
+      <li class="waves-effect <?=$page==$maxpage?'disabled':''?>"><a href="<?=U('list/catebase',['page'=>$page+1])?>"><i class="fa fa-angle-double-right"></i></a></li>
+    </ul>
+  </div>
 
 <footer class="page-footer teal">
   
@@ -153,6 +172,11 @@
 <script src="/Public/js/jquery-2.1.1.min.js"></script>
 <script src="/Public/js/materialize.min.js"></script>
 
+  <script>
+    $(function(){
+       $('.tabs').tabs();
+    });
+  </script>
 
 
 <script>

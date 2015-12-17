@@ -100,26 +100,33 @@ class ListController extends BaseController {
 			$this->assign('papers',null);
     	$this->display('catebase');
     }
-    public function catebase(){
+    public function catebase($page=1,$grade=null){
+    	if(!isset($grade)){
+    		if(!isset($_COOKIE['grade'])){
+    			$grade='1';
+    		}else{
+    			$grade=cookie('grade');
+    		}
+    	}else{
+    		cookie('grade',$grade,3600000);
+    	}
     	$this->initialize('PapersList');
-        $this->getThings();
-    	//$this->assign('subjects',$this->subjects);
-        $this->assign('papers',$this->result);
-    	$this->display('catebase');
-    }
-    private function getThings(){
-        $db=D('subjects');
-        $subjects=$db->select();
+        $maxpage=ceil(D('subjects')->where(['subject_grade'=>$grade])->count()/7);
+        $subjects=D('subjects')->where(['subject_grade'=>$grade])->page($page,'7')->select();
+        $result=[];
+        $this->assign('page',$page);
+        $this->assign('maxpage',$maxpage);
         foreach ($subjects as $subject) {
             $db=D('papers');
             $where=array('subject_code'=>$subject['subject_code']);
             $yearArr=D('papers')->where($where)->group('paper_year')->getField('paper_year',true);
             $result[$subject['subject_code']]=$subject;
             foreach ($yearArr as $year) {
-                $result[$subject['subject_code']]['years'][$year]=D('papers')->where(['subject_code'=>$subject['subject_code'],'paper_year'=>$year])->order('paper_type desc,paper_num asc')->select();
+                $result[$subject['subject_code']]['years'][$year]=D('papers')->where(['subject_code'=>$subject['subject_code'],'paper_year'=>$year])->field('paper_content',true)->order('paper_type desc,paper_num asc')->select();
             }
         }
-        //$this->subjects=$subjects;
-        $this->result=$result;
+    	//$this->assign('subjects',$this->subjects);
+        $this->assign('papers',$result);
+    	$this->display('catebase');
     }
 }
