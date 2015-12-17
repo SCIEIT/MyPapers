@@ -14,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SmartEngine$Run.coverage" NAME="Run Coverage Results" MODIFIED="1450350512068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SmartEngine$Run.coverage" NAME="Run Coverage Results" MODIFIED="1450351251573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SmartEngine$Reader.coverage" NAME="Reader Coverage Results" MODIFIED="1450350062011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -26,43 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Reader.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Reader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-              <folding>
-                <element signature="e#24#38#0" expanded="true" />
-                <marker date="1450350062006" expanded="true" signature="906:939" placeholder="SELECT subje... subjects" />
-                <marker date="1450350062006" expanded="true" signature="987:1016" placeholder="SELECT paper... papers" />
-                <marker date="1450350062006" expanded="true" signature="2490:2605" placeholder="INSERT INTO `papers`... " />
-                <marker date="1450350062006" expanded="true" signature="2490:2607" placeholder="INSERT INTO `papers`... " />
-                <marker date="1450350062006" expanded="true" signature="2490:2683" placeholder="INSERT INTO `papers`... " />
-                <marker date="1450350062006" expanded="true" signature="2490:2684" placeholder="INSERT INTO `papers`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Zip.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zip.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-              <folding>
-                <element signature="e#210#821#0" expanded="false" />
-                <marker date="1450350434691" expanded="true" signature="1093:1144" placeholder="SELECT paper... papers" />
-                <marker date="1450350434691" expanded="true" signature="1093:1157" placeholder="SELECT paper... papers" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44345897">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.4743833">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -75,9 +43,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Reader.py" />
-        <option value="$PROJECT_DIR$/Run.py" />
         <option value="$PROJECT_DIR$/Zip.py" />
+        <option value="$PROJECT_DIR$/Run.py" />
+        <option value="$PROJECT_DIR$/Reader.py" />
       </list>
     </option>
   </component>
@@ -400,7 +368,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32997763" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.452164" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36560366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -428,13 +396,18 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#24#38#0" expanded="true" />
-            <marker date="1450350062006" expanded="true" signature="906:939" placeholder="SELECT subje... subjects" />
-            <marker date="1450350062006" expanded="true" signature="987:1016" placeholder="SELECT paper... papers" />
-            <marker date="1450350062006" expanded="true" signature="2490:2605" placeholder="INSERT INTO `papers`... " />
-            <marker date="1450350062006" expanded="true" signature="2490:2607" placeholder="INSERT INTO `papers`... " />
-            <marker date="1450350062006" expanded="true" signature="2490:2683" placeholder="INSERT INTO `papers`... " />
-            <marker date="1450350062006" expanded="true" signature="2490:2684" placeholder="INSERT INTO `papers`... " />
+            <element signature="e#103#714#0" expanded="false" />
+            <marker date="1450351150846" expanded="true" signature="906:939" placeholder="SELECT subje... subjects" />
+            <marker date="1450351150846" expanded="true" signature="987:1016" placeholder="SELECT paper... papers" />
+            <marker date="1450351150846" expanded="true" signature="2490:2605" placeholder="INSERT INTO `papers`... " />
+            <marker date="1450351150846" expanded="true" signature="2490:2607" placeholder="INSERT INTO `papers`... " />
+            <marker date="1450351150846" expanded="true" signature="2490:2683" placeholder="INSERT INTO `papers`... " />
+            <marker date="1450351150846" expanded="true" signature="2490:2684" placeholder="INSERT INTO `papers`... " />
+            <marker date="1450351150846" expanded="true" signature="2982:3062" placeholder="INSERT INTO `subjects`... " />
+            <marker date="1450351150846" expanded="true" signature="2982:3064" placeholder="INSERT INTO `subjects`... " />
+            <marker date="1450351150846" expanded="true" signature="2982:3080" placeholder="INSERT INTO `subjects`... " />
+            <marker date="1450351150846" expanded="true" signature="2982:3094" placeholder="INSERT INTO `subjects`... " />
+            <marker date="1450351150846" expanded="true" signature="2982:3106" placeholder="INSERT INTO `subjects`... " />
           </folding>
         </state>
       </provider>
@@ -442,15 +415,20 @@
     <entry file="file://$PROJECT_DIR$/Reader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
           <folding>
-            <element signature="e#24#38#0" expanded="true" />
-            <marker date="1450350062006" expanded="true" signature="906:939" placeholder="SELECT subje... subjects" />
-            <marker date="1450350062006" expanded="true" signature="987:1016" placeholder="SELECT paper... papers" />
-            <marker date="1450350062006" expanded="true" signature="2490:2605" placeholder="INSERT INTO `papers`... " />
-            <marker date="1450350062006" expanded="true" signature="2490:2607" placeholder="INSERT INTO `papers`... " />
-            <marker date="1450350062006" expanded="true" signature="2490:2683" placeholder="INSERT INTO `papers`... " />
-            <marker date="1450350062006" expanded="true" signature="2490:2684" placeholder="INSERT INTO `papers`... " />
+            <element signature="e#103#714#0" expanded="false" />
+            <marker date="1450351150846" expanded="true" signature="906:939" placeholder="SELECT subje... subjects" />
+            <marker date="1450351150846" expanded="true" signature="987:1016" placeholder="SELECT paper... papers" />
+            <marker date="1450351150846" expanded="true" signature="2490:2605" placeholder="INSERT INTO `papers`... " />
+            <marker date="1450351150846" expanded="true" signature="2490:2607" placeholder="INSERT INTO `papers`... " />
+            <marker date="1450351150846" expanded="true" signature="2490:2683" placeholder="INSERT INTO `papers`... " />
+            <marker date="1450351150846" expanded="true" signature="2490:2684" placeholder="INSERT INTO `papers`... " />
+            <marker date="1450351150846" expanded="true" signature="2982:3062" placeholder="INSERT INTO `subjects`... " />
+            <marker date="1450351150846" expanded="true" signature="2982:3064" placeholder="INSERT INTO `subjects`... " />
+            <marker date="1450351150846" expanded="true" signature="2982:3080" placeholder="INSERT INTO `subjects`... " />
+            <marker date="1450351150846" expanded="true" signature="2982:3094" placeholder="INSERT INTO `subjects`... " />
+            <marker date="1450351150846" expanded="true" signature="2982:3106" placeholder="INSERT INTO `subjects`... " />
           </folding>
         </state>
       </provider>
@@ -469,8 +447,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44345897">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.4743833">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>

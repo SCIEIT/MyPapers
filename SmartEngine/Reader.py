@@ -83,7 +83,16 @@ class Reader:
             db.sql("INSERT INTO `papers`(`paper_name`, `subject_code`, `paper_year`, `paper_month`, `paper_type`, `paper_num`) VALUES (\""+paper+"\",\""+code+"\",\""+year+"\",\""+month+"\",\""+Type+"\",\""+num+"\")")
         db.close()
         return errarr,undifinedlist,newlist
-
+    def addField(self,fieldlist):
+        db=mysql()
+        db.connect()
+        for subject in fieldlist:
+            if int(subject[0])>4:
+                grade='1'
+            else:
+                grade='0'
+            db.sql("INSERT INTO `subjects`(`subject_code`, `subject_grade`, `subject_name`) VALUES (\""+subject+"\",\""+grade+"\",\"UNDIFINED\")")
+        db.close()
     def getFileList(self,p ):
         p = str( p )
         if p=="":
